@@ -1,0 +1,166 @@
+Image selection review
+
+Created 20 new word-ID cards and updated 8 existing cards. All 85 earlier cards are included in the optimized 105-card set.
+
+vecteezy_a-majestic-stag-standing-gracefully-in-a-natural-pose_54045086.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-cartoon-style-zoo-entrance-with-various-animal-figures_67698153.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-piece-of-white-fabric-with-waves-and-folds-isolated-on-a_51958001.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3d-muscle-arm-holding-dumbbell-icon-illustration_60597311.png
+not_selected: Dumbbell arm rejected in favor of uncluttered flexed arm 74197869.
+
+vecteezy_a-colorful-seesaw-with-a-yellow-beam-and-red-and-blue-seats_59465591.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3d-number-0-zero-number-sign-red-color_38943742.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-single-blueberry-isolated-on-a-transparent-background_49161817.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3d-thumb-isolated-on-transparent-background_60803006.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-father-receiving-a-gift-from-his-child-with-a-smile-on-his_43989105.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-clean-white-rectangular-eraser-isolated-on-transparent_86569743.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3d-rendering-snow-rain-with-sun-rays-sun-hail-with-cloud_24776196.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3d-flexed-bicep-muscle-icon-symbolizing-strength-and-power_74197869.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-row-of-trees-with-green-leaves-stock_45910951.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3d-render-of-two-shiny-gold-stars-with-geometric-facets_77370976.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3-ice-cubes-isolated-on-transparent-background_46399232.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3d-golden-star-icon-isolated-on-transparent-background-for_78801173.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-cartoon-style-zoo-entrance-sign-with-a-lion-monkey-and_67697499.png
+not_selected: Circular zoo sign rejected in favor of actual entrance 67698153.
+
+vecteezy_3d-illustration-of-play-area-for-children-children_24657957.png
+not_selected: Playground has no matching word-list entry; no card made.
+
+vecteezy_3d-render-fourth-of-july-calendar_9349222.PNG
+not_selected: July 4 calendar is ambiguous for ordinal fourth; retained native ordinal card.
+
+vecteezy_3d-cheese-emoji_46437254.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-detailed-illustration-of-an-earthworm-isolated-on_69942897.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-full-body-side-view-of-a-large-white-zebu-cow-also-known_69080314.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_a-dozen-brown-chicken-eggs-neatly-arranged-in-a-cardboard_67685275.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_3d-vector-cartoon-render-yellow-shiny-number-3-three-design_15586239.jpg
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_single-red-rose-with-leaves-and-stem-isolated-on-a_51154097.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_delicious-grilled-ribs-with-sauce-isolated-background-shot_82204135.jpg
+not_selected: Retain previously approved single-rib adaptation.
+
+vecteezy_cute-friendly-robot-standing-and-waving-hello-on-isolated_57530932.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_rock-on-transparent-background_75203083.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_standing-full-body-of-cute-little-white-rabbit-isolated-on_20913402.png
+not_selected: Retain approved fluffy rabbit 55238044.
+
+vecteezy_vibrant-red-rug-with-intricate-geometric-design-rich_57641936.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_golden-ring-with-diamond-for-engagement_51767614.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_rat-isolated-on-white-background_25797255.jpeg
+retained_existing_use: Existing approved image retained.
+
+vecteezy_white-ram-with-curved-horns-resting-on-a-transparent-background_58464514.png
+not_selected: Retain approved bighorn ram; this image already supports sheep.
+
+vecteezy_raccoon-isolated-on-transparent-background-ai-generated_27246943.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_bighorn-sheep-standing-proudly-in-natural-habitat_52654384.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_red-paint-stroke-on-transparent-background-for-designs_58987189.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_gold-ring-isolated-on-a-transparent-background_22025038.png
+not_selected: Retain approved engagement ring 51767614.
+
+vecteezy_coiled-rope-isolated-on-transparent-background_44813726.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_isolated-rain-cloud-illustration-for-weather-forecast-and_72759185.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_a-single-rock-stone-or-rock-isolated-on-background-stone_55157390.png
+not_selected: Use uploaded alternative rock 75203083 for both rock cards.
+
+vecteezy_cotton-rug-isolated-on-transparent-background_47605894.png
+not_selected: Retain approved red rug 57641936.
+
+vecteezy_vintage-retro-styled-space-rocket-isolated-on-transparent_51227007.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_3d-style-rainbow-with-clouds-isolated-against-a-transparent_48739607.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_rooster-isolated-white-background_10072287.jpg
+retained_existing_use: Existing approved image retained.
+
+vecteezy_grilled-chicken-wings-with-sweet-and-sour-sauce-on-a-white_22803418.jpg
+not_selected: Multiple grilled ribs/wings; retain previously approved single-rib adaptation.
+
+vecteezy_bowl-of-white-rice-isolated-on-transparent-background_44813341.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_cute-fluffy-rabbit-with-soft-fur-and-big-ears-sitting_55238044.png
+retained_existing_use: Existing approved image retained.
+
+vecteezy_small-white-house-with-red-roof-and-black-windows-isolated_67800459.png
+selected_for_this_batch: Selected after picture review; see flashcard_mapping.json for assigned word IDs.
+
+vecteezy_an-empty-road-with-a-white-background_53820954.jpg
+retained_existing_use: Existing approved image retained.
+
+vecteezy_garden-rake-isolated-on-a-white-background_52325644.jpg
+not_selected: Garden fork; retain actual rake 53308392.
+
+vecteezy_rake-autumn-illustration_53308392.jpg
+retained_existing_use: Existing approved image retained.
+
+vecteezy_road-highway-caution-warning-mark-sign_52938841.jpg
+not_selected: Retain approved simple road silhouette 53820954.
+
+Review questions (no work blocked):
+- Alternative intent cannot be proven from ZIP ordering or download timestamps. Selections use picture clarity and prior approved choices.
+- The rat image is mouse-like; existing approved card retained pending a clearer rat.
+- Father shares a gift scene; a teal arrow identifies the father.
+- Cloth and sheet share a white fabric cue; cloth needs a naming cue.
+- Dozen and eggs share the carton; dozen may need a counting cue.

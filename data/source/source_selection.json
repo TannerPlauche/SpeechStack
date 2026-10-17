@@ -1,0 +1,1428 @@
+{
+  "sources": [
+    {
+      "asset_id": "54045086",
+      "source_filename": "vecteezy_a-majestic-stag-standing-gracefully-in-a-natural-pose_54045086.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "67698153",
+      "source_filename": "vecteezy_a-cartoon-style-zoo-entrance-with-various-animal-figures_67698153.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "51958001",
+      "source_filename": "vecteezy_a-piece-of-white-fabric-with-waves-and-folds-isolated-on-a_51958001.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "60597311",
+      "source_filename": "vecteezy_3d-muscle-arm-holding-dumbbell-icon-illustration_60597311.png",
+      "decision": "not_selected",
+      "note": "Dumbbell arm rejected in favor of uncluttered flexed arm 74197869."
+    },
+    {
+      "asset_id": "59465591",
+      "source_filename": "vecteezy_a-colorful-seesaw-with-a-yellow-beam-and-red-and-blue-seats_59465591.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "38943742",
+      "source_filename": "vecteezy_3d-number-0-zero-number-sign-red-color_38943742.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "49161817",
+      "source_filename": "vecteezy_a-single-blueberry-isolated-on-a-transparent-background_49161817.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "60803006",
+      "source_filename": "vecteezy_3d-thumb-isolated-on-transparent-background_60803006.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "43989105",
+      "source_filename": "vecteezy_a-father-receiving-a-gift-from-his-child-with-a-smile-on-his_43989105.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "86569743",
+      "source_filename": "vecteezy_a-clean-white-rectangular-eraser-isolated-on-transparent_86569743.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "24776196",
+      "source_filename": "vecteezy_3d-rendering-snow-rain-with-sun-rays-sun-hail-with-cloud_24776196.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "74197869",
+      "source_filename": "vecteezy_3d-flexed-bicep-muscle-icon-symbolizing-strength-and-power_74197869.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "45910951",
+      "source_filename": "vecteezy_a-row-of-trees-with-green-leaves-stock_45910951.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "77370976",
+      "source_filename": "vecteezy_3d-render-of-two-shiny-gold-stars-with-geometric-facets_77370976.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "46399232",
+      "source_filename": "vecteezy_3-ice-cubes-isolated-on-transparent-background_46399232.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "78801173",
+      "source_filename": "vecteezy_3d-golden-star-icon-isolated-on-transparent-background-for_78801173.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "67697499",
+      "source_filename": "vecteezy_a-cartoon-style-zoo-entrance-sign-with-a-lion-monkey-and_67697499.png",
+      "decision": "not_selected",
+      "note": "Circular zoo sign rejected in favor of actual entrance 67698153."
+    },
+    {
+      "asset_id": "24657957",
+      "source_filename": "vecteezy_3d-illustration-of-play-area-for-children-children_24657957.png",
+      "decision": "not_selected",
+      "note": "Playground has no matching word-list entry; no card made."
+    },
+    {
+      "asset_id": "9349222",
+      "source_filename": "vecteezy_3d-render-fourth-of-july-calendar_9349222.PNG",
+      "decision": "not_selected",
+      "note": "July 4 calendar is ambiguous for ordinal fourth; retained native ordinal card."
+    },
+    {
+      "asset_id": "46437254",
+      "source_filename": "vecteezy_3d-cheese-emoji_46437254.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "69942897",
+      "source_filename": "vecteezy_a-detailed-illustration-of-an-earthworm-isolated-on_69942897.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "69080314",
+      "source_filename": "vecteezy_a-full-body-side-view-of-a-large-white-zebu-cow-also-known_69080314.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "67685275",
+      "source_filename": "vecteezy_a-dozen-brown-chicken-eggs-neatly-arranged-in-a-cardboard_67685275.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "15586239",
+      "source_filename": "vecteezy_3d-vector-cartoon-render-yellow-shiny-number-3-three-design_15586239.jpg",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "51154097",
+      "source_filename": "vecteezy_single-red-rose-with-leaves-and-stem-isolated-on-a_51154097.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "82204135",
+      "source_filename": "vecteezy_delicious-grilled-ribs-with-sauce-isolated-background-shot_82204135.jpg",
+      "decision": "not_selected",
+      "note": "Retain previously approved single-rib adaptation."
+    },
+    {
+      "asset_id": "57530932",
+      "source_filename": "vecteezy_cute-friendly-robot-standing-and-waving-hello-on-isolated_57530932.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "75203083",
+      "source_filename": "vecteezy_rock-on-transparent-background_75203083.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "20913402",
+      "source_filename": "vecteezy_standing-full-body-of-cute-little-white-rabbit-isolated-on_20913402.png",
+      "decision": "not_selected",
+      "note": "Retain approved fluffy rabbit 55238044."
+    },
+    {
+      "asset_id": "57641936",
+      "source_filename": "vecteezy_vibrant-red-rug-with-intricate-geometric-design-rich_57641936.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "51767614",
+      "source_filename": "vecteezy_golden-ring-with-diamond-for-engagement_51767614.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "25797255",
+      "source_filename": "vecteezy_rat-isolated-on-white-background_25797255.jpeg",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "58464514",
+      "source_filename": "vecteezy_white-ram-with-curved-horns-resting-on-a-transparent-background_58464514.png",
+      "decision": "not_selected",
+      "note": "Retain approved bighorn ram; this image already supports sheep."
+    },
+    {
+      "asset_id": "27246943",
+      "source_filename": "vecteezy_raccoon-isolated-on-transparent-background-ai-generated_27246943.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "52654384",
+      "source_filename": "vecteezy_bighorn-sheep-standing-proudly-in-natural-habitat_52654384.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "58987189",
+      "source_filename": "vecteezy_red-paint-stroke-on-transparent-background-for-designs_58987189.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "22025038",
+      "source_filename": "vecteezy_gold-ring-isolated-on-a-transparent-background_22025038.png",
+      "decision": "not_selected",
+      "note": "Retain approved engagement ring 51767614."
+    },
+    {
+      "asset_id": "44813726",
+      "source_filename": "vecteezy_coiled-rope-isolated-on-transparent-background_44813726.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "72759185",
+      "source_filename": "vecteezy_isolated-rain-cloud-illustration-for-weather-forecast-and_72759185.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "55157390",
+      "source_filename": "vecteezy_a-single-rock-stone-or-rock-isolated-on-background-stone_55157390.png",
+      "decision": "not_selected",
+      "note": "Use uploaded alternative rock 75203083 for both rock cards."
+    },
+    {
+      "asset_id": "47605894",
+      "source_filename": "vecteezy_cotton-rug-isolated-on-transparent-background_47605894.png",
+      "decision": "not_selected",
+      "note": "Retain approved red rug 57641936."
+    },
+    {
+      "asset_id": "51227007",
+      "source_filename": "vecteezy_vintage-retro-styled-space-rocket-isolated-on-transparent_51227007.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "48739607",
+      "source_filename": "vecteezy_3d-style-rainbow-with-clouds-isolated-against-a-transparent_48739607.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "10072287",
+      "source_filename": "vecteezy_rooster-isolated-white-background_10072287.jpg",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "22803418",
+      "source_filename": "vecteezy_grilled-chicken-wings-with-sweet-and-sour-sauce-on-a-white_22803418.jpg",
+      "decision": "not_selected",
+      "note": "Multiple grilled ribs/wings; retain previously approved single-rib adaptation."
+    },
+    {
+      "asset_id": "44813341",
+      "source_filename": "vecteezy_bowl-of-white-rice-isolated-on-transparent-background_44813341.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "55238044",
+      "source_filename": "vecteezy_cute-fluffy-rabbit-with-soft-fur-and-big-ears-sitting_55238044.png",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "67800459",
+      "source_filename": "vecteezy_small-white-house-with-red-roof-and-black-windows-isolated_67800459.png",
+      "decision": "selected_for_this_batch",
+      "note": "Selected after picture review; see flashcard_mapping.json for assigned word IDs."
+    },
+    {
+      "asset_id": "53820954",
+      "source_filename": "vecteezy_an-empty-road-with-a-white-background_53820954.jpg",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "52325644",
+      "source_filename": "vecteezy_garden-rake-isolated-on-a-white-background_52325644.jpg",
+      "decision": "not_selected",
+      "note": "Garden fork; retain actual rake 53308392."
+    },
+    {
+      "asset_id": "53308392",
+      "source_filename": "vecteezy_rake-autumn-illustration_53308392.jpg",
+      "decision": "retained_existing_use",
+      "note": "Existing approved image retained."
+    },
+    {
+      "asset_id": "52938841",
+      "source_filename": "vecteezy_road-highway-caution-warning-mark-sign_52938841.jpg",
+      "decision": "not_selected",
+      "note": "Retain approved simple road silhouette 53820954."
+    },
+    {
+      "asset_id": "71866223",
+      "source_filename": "vecteezy_a-single-white-tooth-on-isolated-on-transparent-background_71866223.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "59009958",
+      "source_filename": "vecteezy_a-single-whole-green-zucchini-vegetable-isolated-on_59009958 (1).png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "59009958",
+      "source_filename": "vecteezy_a-single-whole-green-zucchini-vegetable-isolated-on_59009958.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "68536516",
+      "source_filename": "vecteezy_a-traffic-stop-sign-isolated-on-a-transparent-background_68536516.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "65651222",
+      "source_filename": "vecteezy_a-white-leather-wallet-with-card-slots-isolated-on-a_65651222.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "52243405",
+      "source_filename": "vecteezy_a-white-travel-suitcase-isolated-on-transparent-background_52243405.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46929134",
+      "source_filename": "vecteezy_a-white-wedding-dress-on-a-transparent-background_46929134.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "42271594",
+      "source_filename": "vecteezy_a-young-woman-with-his-hairstyle-and-the-atmosphere-of_42271594.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "42573743",
+      "source_filename": "vecteezy_ai-generated-beautiful-designed-gold-bracelet-isolated-on_42573743.png",
+      "decision": "not_selected",
+      "note": "Gold bangle looks like a ring; selected distinct beaded bracelet."
+    },
+    {
+      "asset_id": "41289434",
+      "source_filename": "vecteezy_ai-generated-bug-isolated-on-transparent-background_41289434.png",
+      "decision": "not_selected",
+      "note": "Selected simpler cartoon beetle 54089479."
+    },
+    {
+      "asset_id": "36886066",
+      "source_filename": "vecteezy_ai-generated-grandmother-cartoon-3d-illustration-character_36886066.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "36047875",
+      "source_filename": "vecteezy_ai-generated-happy-grandfather-face-shot-isolated-on_36047875.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "38243238",
+      "source_filename": "vecteezy_ai-generated-horizontal-photo-of-a-red-thread-needle-against_38243238.png",
+      "decision": "selected",
+      "note": "Selected red thread spool; needle is secondary."
+    },
+    {
+      "asset_id": "42241367",
+      "source_filename": "vecteezy_ai-generated-ladybug-isolated-on-transparent-background_42241367.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "36121500",
+      "source_filename": "vecteezy_ai-generated-pirate-cartoon-character-design-illustration-on_36121500.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "36398171",
+      "source_filename": "vecteezy_ai-generated-sparrow-bird-isolated-on-transparent-background_36398171.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "36398000",
+      "source_filename": "vecteezy_ai-generated-walrus-isolated-on-transparent-background_36398000.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "42235786",
+      "source_filename": "vecteezy_ai-generated-watercolor-and-painting-seahorse_42235786.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "36029663",
+      "source_filename": "vecteezy_ai-generated-zombie-cartoon-character-isolated-on_36029663.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "44015837",
+      "source_filename": "vecteezy_aluminium-ladder-on-transparent-background_44015837.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "77740627",
+      "source_filename": "vecteezy_aluminum-folding-step-ladder-with-multi-position_77740627.png",
+      "decision": "not_selected",
+      "note": "Selected classic stepladder 44015837."
+    },
+    {
+      "asset_id": "67595731",
+      "source_filename": "vecteezy_an-image-of-a-human-eye-isolated-on-transparent-background_67595731.png",
+      "decision": "not_selected",
+      "note": "Iris close-up; selected whole cartoon eyes 56768644."
+    },
+    {
+      "asset_id": "26852960",
+      "source_filename": "vecteezy_animal-toys-doll-cut-out-isolated-transparent-background_26852960.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "50906149",
+      "source_filename": "vecteezy_athletic-female-in-workout-shorts-and-sneakers-showing_50906149.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "24819363",
+      "source_filename": "vecteezy_back-to-school-element_24819363.png",
+      "decision": "not_selected",
+      "note": "Retained earlier plain eraser 86569743 instead of wrapped eraser."
+    },
+    {
+      "asset_id": "50350686",
+      "source_filename": "vecteezy_baseball-isolated-on-a-transparent-background_50350686.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "47225993",
+      "source_filename": "vecteezy_bath-glyph-icon-isolated-on-white-background_47225993.jpg",
+      "decision": "not_selected",
+      "note": "Selected realistic bathtub 43596796 instead of glyph."
+    },
+    {
+      "asset_id": "43596796",
+      "source_filename": "vecteezy_bathtub-on-isolated-transparent-background_43596796.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "55079647",
+      "source_filename": "vecteezy_beaded-bracelet-perfect-gift-idea-for-any-celebration_55079647.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "24508752",
+      "source_filename": "vecteezy_bear-isolated-on-background-with_24508752.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "60343661",
+      "source_filename": "vecteezy_beautiful-romantic-mid-century-concept-art-style_60343661.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "58045289",
+      "source_filename": "vecteezy_beautiful-traditional-modern-bathroom-with-glass-shower_58045289.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "68645766",
+      "source_filename": "vecteezy_beautifully-preserved-ancient-shell-fossil-isolated-on-rock_68645766.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "21597201",
+      "source_filename": "vecteezy_beige-thread-spool-isolated-on-a-transparent-background_21597201.png",
+      "decision": "not_selected",
+      "note": "Yarn ball, not sewing thread; selected actual red thread spool."
+    },
+    {
+      "asset_id": "53776231",
+      "source_filename": "vecteezy_bicycle-isolated-on-white-background-for-transportation-and_53776231.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "21333281",
+      "source_filename": "vecteezy_birthday-cake-isolated-on-a-transparent-background_21333281.png",
+      "decision": "selected",
+      "note": "Used for cake; did not assume birthday from cake without candles."
+    },
+    {
+      "asset_id": "49689000",
+      "source_filename": "vecteezy_black-panther-on-transparent-background_49689000.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "71508308",
+      "source_filename": "vecteezy_block-of-yellow-butter-on-white-plate-dairy-food_71508308.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "59252491",
+      "source_filename": "vecteezy_blocks-of-butter-isolated-on-transparent-background_59252491.png",
+      "decision": "not_selected",
+      "note": "Selected single butter block on plate 71508308."
+    },
+    {
+      "asset_id": "54713253",
+      "source_filename": "vecteezy_blue-zigzag-wave-shape-isolated-on-transparent-background_54713253.png",
+      "decision": "not_selected",
+      "note": "Duplicate download or no confident vocabulary match."
+    },
+    {
+      "asset_id": "59250952",
+      "source_filename": "vecteezy_bologna-sausage-ham-with-chili-sliced-and-presented-on-a_59250952.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "32325231",
+      "source_filename": "vecteezy_bouquet-of-delicate-lilac-roses-and-vibrant-purple-tulips_32325231.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "72434899",
+      "source_filename": "vecteezy_bright-yellow-whistle-with-white-lanyard-on-transparent_72434899 (1).png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "72434899",
+      "source_filename": "vecteezy_bright-yellow-whistle-with-white-lanyard-on-transparent_72434899.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "23349067",
+      "source_filename": "vecteezy_burmese-python-isolated-on-white-background_23349067.jpg",
+      "decision": "not_selected",
+      "note": "Selected cleaner coiled python 75654268."
+    },
+    {
+      "asset_id": "140583",
+      "source_filename": "vecteezy_business-superwoman-time-management-vector_140583.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "52499606",
+      "source_filename": "vecteezy_carrot-isolated-on-transparent-background_52499606.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "54089479",
+      "source_filename": "vecteezy_cartoon-beetle-insect-view-from-the-top-isolated-on-the_54089479.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "56768644",
+      "source_filename": "vecteezy_cartoon-eyes-with-eyelashes-on-transparent-background_56768644.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "43287610",
+      "source_filename": "vecteezy_cartoon-style-panther-sit-isolated-on-transparent-background_43287610.png",
+      "decision": "not_selected",
+      "note": "Selected realistic black panther 49689000."
+    },
+    {
+      "asset_id": "46498362",
+      "source_filename": "vecteezy_cartoon-worm-isolated-on-transparent-background-cute-and_46498362.png",
+      "decision": "not_selected",
+      "note": "Caterpillar with antennae; retained previous earthworm image for worm."
+    },
+    {
+      "asset_id": "42350062",
+      "source_filename": "vecteezy_cartoon-zookeeper-presenting-on-white-background_.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "42350062",
+      "source_filename": "vecteezy_cartoon-zookeeper-presenting-on-white-background_.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "48922344",
+      "source_filename": "vecteezy_cereal-in-white-bowl-isolated-on-transparent-background_48922344.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "27251711",
+      "source_filename": "vecteezy_cheeseburger-isolated-on-white-or-transparent-background_27251711.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "55066537",
+      "source_filename": "vecteezy_cherry-blossom-branch-with-white-flowers-isolated-on_55066537.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "201222",
+      "source_filename": "aryj_hl9z_201222.jpg",
+      "decision": "not_selected",
+      "note": "Duplicate download or no confident vocabulary match."
+    },
+    {
+      "asset_id": "641300",
+      "source_filename": "95-wintersnow.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "54043899",
+      "source_filename": "vecteezy_christmas-wreath-isolated-on-transparent-background_54043899.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "51333419",
+      "source_filename": "vecteezy_classic-white-door-with-decorative-molding-suitable-for_51333419.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "7874167",
+      "source_filename": "vecteezy_classical-ballet-cute-ballerina-in-a-pink-dress_7874167.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "51333391",
+      "source_filename": "vecteezy_close-up-image-of-a-wooden-toothpick-isolated-on-a_51333391.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "48219859",
+      "source_filename": "vecteezy_close-up-of-plain-house-mouse-aka-mus-musculus-standing_48219859.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46543265",
+      "source_filename": "vecteezy_close-up-of-whipped-cream-swirl_46543265 (1).png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46543265",
+      "source_filename": "vecteezy_close-up-of-whipped-cream-swirl_46543265.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "69806622",
+      "source_filename": "vecteezy_closeup-view-of-human-feet-from-the-front-showing-toes-and_69806622.png",
+      "decision": "not_selected",
+      "note": "Duplicate download or no confident vocabulary match."
+    },
+    {
+      "asset_id": "49668780",
+      "source_filename": "vecteezy_cobblestone-path-with-transparent-background-a-stone_49668780.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "75654268",
+      "source_filename": "vecteezy_coiled-ball-python-snake_75654268.jpeg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "50473858",
+      "source_filename": "vecteezy_colorful-birthday-celebration-with-a-pink-cupcake-and-balloons_50473858.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "71305104",
+      "source_filename": "vecteezy_colorful-jigsaw-puzzle-piece-playful-object-cartoon-style_71305104.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "12173982",
+      "source_filename": "vecteezy_colorful-kids-zone-lettering_12173982.png",
+      "decision": "not_selected",
+      "note": "Lettering alone does not clearly illustrate zone."
+    },
+    {
+      "asset_id": "59630771",
+      "source_filename": "vecteezy_colorful-striped-sock-design-with-vibrant-patterns-ideal-for_59630771.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "12414948",
+      "source_filename": "vecteezy_construction-site-with-heaps-of-sand-pile-of-sand-on-an_12414948.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46439154",
+      "source_filename": "vecteezy_corn-isolated-on-a-transparent-background_46439154.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "49666495",
+      "source_filename": "vecteezy_cozy-armchair-by-a-fireplace-with-a-book-and-a-cup-of_49666495.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "55237641",
+      "source_filename": "vecteezy_cute-animated-grandmother-character-in-cozy-orange-outfit_55237641.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "16883441",
+      "source_filename": "vecteezy_cute-boy-bathing-cartoon-vector_16883441.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "47493743",
+      "source_filename": "vecteezy_cute-dog-and-puppies_47493743.png",
+      "decision": "selected",
+      "note": "Selected for plural dogs; no singular dog/doggy card from pair."
+    },
+    {
+      "asset_id": "35341446",
+      "source_filename": "vecteezy_cute-little-boy-avatar-portrait-of-a-smiley-kid-boy-avatar_35341446.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "71093221",
+      "source_filename": "vecteezy_cute-pink-fuzzy-ball-with-big-eyes-and-soft-texture_71093221.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "80114634",
+      "source_filename": "vecteezy_dark-gray-gradient-style-icon-magnifier-zoom-in_80114634.png",
+      "decision": "not_selected",
+      "note": "Magnification icon is a different sense of zoom; retained speeding-car cue."
+    },
+    {
+      "asset_id": "49950246",
+      "source_filename": "vecteezy_deer-with-antlers-on-a-white-background-cut-out-transparent_49950246.png",
+      "decision": "not_selected",
+      "note": "Retained earlier full-body deer rather than head-only alternative."
+    },
+    {
+      "asset_id": "85872067",
+      "source_filename": "vecteezy_delicate-white-daisy-with-a-bright-yellow-center-and-soft_85872067.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "54197349",
+      "source_filename": "vecteezy_delicious-grilled-cheese-sandwich-isolated-on-white_54197349.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "70282989",
+      "source_filename": "vecteezy_diamond-stud-earring-luxury-jewelry-and-fashion-accessory_70282989.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "51964687",
+      "source_filename": "vecteezy_dinosaur-full-body-isolate-on-transparency-background_51964687.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "50176344",
+      "source_filename": "vecteezy_earth-globe-isolated-on-transparent-background_50176344.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "21346742",
+      "source_filename": "vecteezy_eggs-isolated-on-a-transparent-background_21346742.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "53814205",
+      "source_filename": "vecteezy_elegant-clean-white-ice-cube-isolated-on-white-background-on_53814205.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "57461601",
+      "source_filename": "vecteezy_elegant-creative-silver-metal-thimble-isolated-transparent_57461601.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "66167076",
+      "source_filename": "vecteezy_elegant-gold-leather-cowboy-boots-western-fashion-footwear_66167076.png",
+      "decision": "not_selected",
+      "note": "Selected simpler green rain boots 67870771."
+    },
+    {
+      "asset_id": "58050859",
+      "source_filename": "vecteezy_elegant-white-goose-standing-profile-isolated-cut-out_58050859.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "51965214",
+      "source_filename": "vecteezy_empty-clear-glass-isolated-on-transparent-background_51965214.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "14317098",
+      "source_filename": "vecteezy_equipment-lasso-icon-cartoon-style_14317098.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "59062279",
+      "source_filename": "vecteezy_extraordinary-contemporary-a-branch-of-cherry-blossoms-in_59062279.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "59442133",
+      "source_filename": "vecteezy_extraordinary-traditional-giant-spider-hairy-legs-genuine_59442133.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "59148152",
+      "source_filename": "vecteezy_extraordinary-traditional-pop-art-style-comic-book-sound_59148152 (1).png",
+      "decision": "not_selected",
+      "note": "Picture says BAM rather than ZAP; no zap card made."
+    },
+    {
+      "asset_id": "59148152",
+      "source_filename": "vecteezy_extraordinary-traditional-pop-art-style-comic-book-sound_59148152.png",
+      "decision": "not_selected",
+      "note": "Picture says BAM rather than ZAP; no zap card made."
+    },
+    {
+      "asset_id": "52939387",
+      "source_filename": "vecteezy_face-young-teenage-boy-illustration-isolated-on-white_52939387.jpg",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "44278801",
+      "source_filename": "vecteezy_father-holding-baby-upward-on-isolated-transparent-background_44278801.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "86417256",
+      "source_filename": "vecteezy_flat-silhouette-illustration-of-a-female-ballet-dancer_86417256.jpg",
+      "decision": "not_selected",
+      "note": "Retained earlier ballerina 7874167."
+    },
+    {
+      "asset_id": "48740723",
+      "source_filename": "vecteezy_fluffy-teddy-bear-isolated-against-a-transparent-background_48740723.png",
+      "decision": "not_selected",
+      "note": "Teddy bear could cue toy rather than bear; retained earlier real bear."
+    },
+    {
+      "asset_id": "67686376",
+      "source_filename": "vecteezy_fossil-of-a-leaf-in-stone-isolated-on-transparent-background_67686376.png",
+      "decision": "not_selected",
+      "note": "Retained earlier shell fossil 68645766."
+    },
+    {
+      "asset_id": "49957100",
+      "source_filename": "vecteezy_fresh-romaine-lettuce-leaf-on-a-white-background-isolated_49957100.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "47240595",
+      "source_filename": "vecteezy_full-body-illustration-of-a-male-firefighter-in-uniform-on-a_47240595.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "50383597",
+      "source_filename": "vecteezy_gazelle-walking-isolated-on-a-transparent-background_50383597.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46336324",
+      "source_filename": "vecteezy_gecko-isolated-top-view-of-lizard-isolated-on-transparent_46336324.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "47130193",
+      "source_filename": "vecteezy_giraffe-african-wildlife-giraffe-isolated-giraffe-mammal_47130193.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "27246614",
+      "source_filename": "vecteezy_giraffe-isolated-on-transparent-background-ai-generated_27246614.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "49950472",
+      "source_filename": "vecteezy_girl-with-long-hair-on-white-background-cut-out-transparent_49950472.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "68496733",
+      "source_filename": "vecteezy_glad-millennial-european-guy-and-woman-in-white-t-shirts_68496733.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46613415",
+      "source_filename": "vecteezy_glass-of-orange-juice-isolated-on-transparent-background_46613415.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "58325028",
+      "source_filename": "vecteezy_golden-throne-isolated-on-transparent-background_58325028.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "49956690",
+      "source_filename": "vecteezy_green-peas-in-a-pod-on-white-background-isolated-transparent_49956690.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "72879855",
+      "source_filename": "vecteezy_grilled-sausage-isolated-on-transparent-background_72879855.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "10287615",
+      "source_filename": "vecteezy_group-of-people-icon-in-trendy-flat-style-isolated-on-white_10287615-1.jpg",
+      "decision": "not_selected",
+      "note": "Generic people icon; retained numeral card for three."
+    },
+    {
+      "asset_id": "46635114",
+      "source_filename": "vecteezy_hammer-isolated-on-transparent-background_46635114.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "14605529",
+      "source_filename": "vecteezy_hand-drawn-dotted-line-for-border-decoration-underline-a_14605529 (1).png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "14605529",
+      "source_filename": "vecteezy_hand-drawn-dotted-line-for-border-decoration-underline-a_14605529.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "63104273",
+      "source_filename": "vecteezy_hand-saw-tool-isolated-on-transparent-background_63104273.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "53327227",
+      "source_filename": "vecteezy_handball-sport-man-player-action-boy-throwing-a-straight_53327227.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "23958555",
+      "source_filename": "vecteezy_happy-father-day-concept-cute-frogs-with-dad-and-child_23958555.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "57672777",
+      "source_filename": "vecteezy_happy-joyful-baby-in-white-blanket-towel-transparent_57672777.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "50830645",
+      "source_filename": "vecteezy_high-quality-grass-isolated-on-transparent-background_50830645.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "54785648",
+      "source_filename": "vecteezy_high-resolution-pencil-isolated-on-transparent-background_54785648.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "24678226",
+      "source_filename": "vecteezy_honey-bee-isolated-illustration_24678226.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "60047951",
+      "source_filename": "vecteezy_iconic-tropical-a-single-red-cherry-with-stem-no_60047951.png",
+      "decision": "not_selected",
+      "note": "Selected realistic cherry alternative 73876755."
+    },
+    {
+      "asset_id": "47824740",
+      "source_filename": "vecteezy_illustration-of-a-standing-undead-zombie_47824740.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "62856871",
+      "source_filename": "vecteezy_illustration-of-swallow-anatomy_62856871.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "42235465",
+      "source_filename": "vecteezy_isolated-cute-hand-drawn-seahorse-in-transparent-background_42235465.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "54197669",
+      "source_filename": "vecteezy_isolated-starfish-on-white-background-for-natural-science_54197669.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "11791979",
+      "source_filename": "vecteezy_isolated-trees-on-white-background_11791979.png",
+      "decision": "not_selected",
+      "note": "Single tree; retained earlier row of trees for plural trees."
+    },
+    {
+      "asset_id": "55144022",
+      "source_filename": "vecteezy_isolated-white-fluffy-cloud-shape-with-a-transparent_55144022.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "56613749",
+      "source_filename": "vecteezy_jolly-pirate-captain-with-a-friendly-parrot-companion_56613749.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "73876755",
+      "source_filename": "vecteezy_juicy-red-cherry-with-water-droplets-resting-on-a-white-surface_73876755.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "44861270",
+      "source_filename": "vecteezy_kids-shoes-isolated_44861270.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46437486",
+      "source_filename": "vecteezy_komodo-dragon-side-view-isolated-on-transparent-background_46437486.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "53775814",
+      "source_filename": "vecteezy_large-tree-with-thick-trunk-isolated-on-white-background-for_53775814.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "73757869",
+      "source_filename": "vecteezy_laser-projector-emitting-bright-pink-beam-modern-technology_73757869.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "5482973",
+      "source_filename": "vecteezy_lasso-rope-for-catching-animals-brown-rustic-cord-cartoon_5482973.jpg",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "51335182",
+      "source_filename": "vecteezy_leather-western-saddle-isolated-on-transparent-background_51335182.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "60238102",
+      "source_filename": "vecteezy_lemon-peel-spiral-fresh-citrus-zest-for-culinary-and_60238102.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "33302789",
+      "source_filename": "vecteezy_lettuce-png-with-ai-generated_33302789.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "86811986",
+      "source_filename": "vecteezy_long-zipper-half-unzipped-with-pull-tab-open-fastener-zip_86811986.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "12815672",
+      "source_filename": "vecteezy_lovey-red-haird-girl-embraces-with-love-her-older-brother_12815672.JPG",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "58271529",
+      "source_filename": "vecteezy_lush-green-flourishing-tree-with-fresh-foliage-in-natural_58271529.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "55070978",
+      "source_filename": "vecteezy_majestic-white-horse-isolated-on-a-white-background-for_55070978.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "54043648",
+      "source_filename": "vecteezy_male-athlete-running-isolated-on-transparent-background_54043648.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "52650458",
+      "source_filename": "vecteezy_man-observing-wildlife-with-binoculars-in-nature_52650458.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "48777209",
+      "source_filename": "vecteezy_medieval-stone-castle-with-multiple-towers-and-flags_48777209.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46896093",
+      "source_filename": "vecteezy_mercury-in-glass-thermometer-with-temperature-mark-37-c_46896093.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "51689342",
+      "source_filename": "vecteezy_moose-full-body-isolate-on-transparency-background_51689342.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "32067804",
+      "source_filename": "vecteezy_moth-illustration-on-transparent-background_32067804.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "56680674",
+      "source_filename": "vecteezy_mother-bear-and-cub-resting-together-in-nature_56680674.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "48742257",
+      "source_filename": "vecteezy_mother-carrying-baby-isolated-on-a-transparent-background_48742257.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46824018",
+      "source_filename": "vecteezy_music-notes-symbol-isolated-on-transparent-background_46824018.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "56820303",
+      "source_filename": "vecteezy_musical-notes-treble-clef-staff-on-transparent-background_56820303.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "69983579",
+      "source_filename": "vecteezy_nose-anatomy-human-organs-body-part_69983579.jpg",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "35359813",
+      "source_filename": "vecteezy_nose-icon-isolated-on-white-background_35359813.jpg",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "60492110",
+      "source_filename": "vecteezy_notable-contemporary-hyper-specific-professional-render-of-a_60492110.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "48742242",
+      "source_filename": "vecteezy_octopus-isolated-against-a-transparent-background_48742242.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "50704824",
+      "source_filename": "vecteezy_old-wooden-dresser-isolated-on-transparent-background_50704824.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "52645715",
+      "source_filename": "vecteezy_orange-slice-on-white-background-isolated-transparent_52645715.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "56590452",
+      "source_filename": "vecteezy_orange-suitcase-rolling-smoothly-ideal-travel-companion_56590452.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "67870771",
+      "source_filename": "vecteezy_pair-of-green-rubber-boots-isolated-on-transparent-background_67870771.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "54197466",
+      "source_filename": "vecteezy_parrot-perched-on-a-branch-isolated-on-white-background-on_54197466.png",
+      "decision": "not_selected",
+      "note": "Yellow bird is not a clear parrot cue; deferred pending a clearer parrot."
+    },
+    {
+      "asset_id": "59325049",
+      "source_filename": "vecteezy_passenger-seat-image-isolated-on-transparent-background_59325049.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "46825159",
+      "source_filename": "vecteezy_pear-isolated-on-transparent-background_46825159.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "48742766",
+      "source_filename": "vecteezy_pile-of-raisins-isolated-against-a-transparent-background_48742766.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "47832730",
+      "source_filename": "vecteezy_popsicle-ice-cream-isolated-on-transparent-background_47832730.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "55081634",
+      "source_filename": "vecteezy_powerful-lightning-storm-with-dramatic-cloudscape_55081634.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "46860133",
+      "source_filename": "vecteezy_raisins-isolated-on-transparent-background_46860133.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "50001363",
+      "source_filename": "vecteezy_raw-leather-transparent-background_50001363.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "44641862",
+      "source_filename": "vecteezy_raw-silver-stone-on-transparent-background_44641862.png",
+      "decision": "not_selected",
+      "note": "Silver-colored stone cannot establish zinc; no zinc card made."
+    },
+    {
+      "asset_id": "57907509",
+      "source_filename": "vecteezy_realistic-3d-house-keys-isolated-on-transparent-background_57907509.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "68762870",
+      "source_filename": "vecteezy_realistic-detailed-isolated-white-dice-with-black-pips-on_68762870.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "74822703",
+      "source_filename": "vecteezy_realistic-human-ear-close-up-side-view-with-detailed-skin_74822703.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    },
+    {
+      "asset_id": "74201321",
+      "source_filename": "vecteezy_realistic-lush-green-grass-meadow-with-bright-spring-tones_74201321.png",
+      "decision": "not_selected",
+      "note": "Retained an earlier clear picture or selected the clearer alternative in this batch."
+    },
+    {
+      "asset_id": "57908107",
+      "source_filename": "vecteezy_realistic-scissors-isolated-on-transparent-background_57908107.png",
+      "decision": "selected",
+      "note": "Selected after picture review."
+    }
+  ],
+  "review_notes": [
+    "Alternative intent cannot be proven from ZIP ordering or download timestamps. Selections use picture clarity and prior approved choices.",
+    "The rat image is mouse-like; existing approved card retained pending a clearer rat.",
+    "Father shares a gift scene; a teal arrow identifies the father.",
+    "Cloth and sheet share a white fabric cue; cloth needs a naming cue.",
+    "Dozen and eggs share the carton; dozen may need a counting cue.",
+    "Picture is a cream swirl; may also be named whipped cream.",
+    "Wallet illustrates the material leather; adult naming cue needed.",
+    "Family role requires a naming cue; cartoon age is ambiguous.",
+    "Family role requires a naming cue.",
+    "Picture is a ballerina, a type of dancer.",
+    "Arrow identifies the thigh.",
+    "Arrow identifies the shorts.",
+    "Arrow identifies the leg.",
+    "Uniform suggests a keeper; zoo context may need a naming cue.",
+    "Tub represents a bath; may be named bathtub.",
+    "Two repeated toy dolls illustrate plural toys.",
+    "Heavy snowfall scene represents blizzard; naming cue may be needed.",
+    "Repeated single-tooth illustrations give a plural cue; these are not a full set of teeth.",
+    "Illustrated multitasking scene represents busy.",
+    "Birthday balloons and lettering provide a naming cue.",
+    "Jigsaw puzzle illustration represents the target jigsaw.",
+    "Fireplace scene; armchair is the target.",
+    "Armchair is a type of chair.",
+    "Furry ball illustrates adjective fuzzy.",
+    "Firefighter picture supports the word fireman.",
+    "Adult couple kissing illustrates kiss.",
+    "Arrow identifies thick tree trunk; adult contrast cue may help.",
+    "Arrow identifies thin tree trunk; adult contrast cue may help.",
+    "Arrow identifies the throat on anatomy illustration.",
+    "Pile of raisins illustrates the singular target raisin; adult naming cue needed.",
+    "Lightning storm is a visual cue for the sound thunder.",
+    "Raw leather illustrates the material.",
+    "Blanketed baby illustrates cozy.",
+    "Top egg cropped from a two-egg source.",
+    "Arrow identifies the green frog in the two-frog illustration.",
+    "Same word appears in two sound categories with different target spellings underlined."
+  ]
+}
