@@ -1,0 +1,10 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["VowelTrackerModule"],
+    "podspecPath": "VowelTracker.podspec"
+  },
+  "android": {
+    "modules": ["com.tannerplauche.voweltracker.VowelTrackerModule"]
+  }
+}

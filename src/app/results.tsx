@@ -1,6 +1,6 @@
 import { Image } from 'expo-image';
 import { Redirect, useRouter } from 'expo-router';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Button, IconButton } from '@/components/Button';
@@ -9,6 +9,8 @@ import { Icon } from '@/components/Icon';
 import { Screen, TopBar } from '@/components/Screen';
 import { getSound, getWord, positionLabel, type WordEntry } from '@/data';
 import { useSession } from '@/state/session';
+import { useSpeaker } from '@/state/speaker';
+import { retryFailed, useUploads } from '@/vowelsy/uploads';
 import { colors, fonts, radius, shadow } from '@/theme';
 
 function cheer(pct: number) {
@@ -22,9 +24,12 @@ export default function Results() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { lastSession } = useSession();
+  const uploads = useUploads(lastSession?.roundId);
+  const speaker = useSpeaker();
   if (!lastSession) return <Redirect href="/" />;
 
-  const { sound: soundId, position, isRetry, results } = lastSession;
+  const { sound: soundId, position, isRetry, results, recordings, sessionId, roundId } = lastSession;
+  const recordedCount = results.filter((r) => recordings[r.id]).length;
   const sound = getSound(soundId);
   const lookup = (ids: string[]) => ids.map(getWord).filter((w): w is WordEntry => !!w);
   const correct = lookup(results.filter((r) => r.correct).map((r) => r.id));
@@ -35,7 +40,7 @@ export default function Results() {
   const practice = (words: WordEntry[]) =>
     router.replace({
       pathname: '/practice',
-      params: { sound: soundId, position, shuffle: '1', ids: words.map((w) => w.id).join(',') },
+      params: { sound: soundId, position, shuffle: '1', ids: words.map((w) => w.id).join(','), session: sessionId },
     });
 
   return (
@@ -69,6 +74,16 @@ export default function Results() {
           </View>
         </View>
 
+        {recordedCount > 0 && (
+          <UploadCard
+            total={recordedCount}
+            done={uploads.filter((u) => u.status === 'done').length}
+            failed={uploads.filter((u) => u.status === 'failed')}
+            noSpeaker={!speaker && uploads.length === 0}
+            onRetry={() => retryFailed(roundId)}
+          />
+        )}
+
         {missed.length > 0 && (
           <WordGroup title="Needs practice" icon="x" color={colors.coral} soft={colors.coralSoft} words={missed} />
         )}
@@ -97,6 +112,60 @@ export default function Results() {
         </View>
       </View>
     </Screen>
+  );
+}
+
+function UploadCard(props: {
+  total: number;
+  done: number;
+  failed: { error?: string }[];
+  noSpeaker: boolean;
+  onRetry: () => void;
+}) {
+  const { total, done, failed } = props;
+  const busy = !props.noSpeaker && done + failed.length < total;
+  let title: string;
+  let detail: string | undefined;
+  if (props.noSpeaker) {
+    title = `${total} recording${total === 1 ? '' : 's'} not sent`;
+    detail = 'Add the client’s sex and age to send recordings to Vowelsy.';
+  } else if (busy) {
+    title = `Sending ${Math.min(done + failed.length + 1, total)} of ${total} recordings…`;
+  } else if (failed.length) {
+    title = `${failed.length} of ${total} recordings didn’t send`;
+    detail = failed[0].error;
+  } else {
+    title = `${total} recording${total === 1 ? '' : 's'} sent to Vowelsy`;
+  }
+
+  return (
+    <View style={styles.upload}>
+      <View style={[styles.uploadIcon, failed.length || props.noSpeaker ? styles.uploadIconWarn : null]}>
+        {busy ? (
+          <ActivityIndicator color={colors.primary} />
+        ) : (
+          <Icon
+            name={failed.length || props.noSpeaker ? 'upload' : 'check'}
+            size={20}
+            color={failed.length || props.noSpeaker ? colors.coral : colors.primary}
+            strokeWidth={2.8}
+          />
+        )}
+      </View>
+      <View style={{ flex: 1 }}>
+        <Text style={styles.uploadTitle}>{title}</Text>
+        {detail ? (
+          <Text style={styles.uploadDetail} numberOfLines={2}>
+            {detail}
+          </Text>
+        ) : null}
+      </View>
+      {!busy && failed.length > 0 && (
+        <Pressable accessibilityRole="button" onPress={props.onRetry} style={styles.retry} hitSlop={6}>
+          <Text style={styles.retryText}>Retry</Text>
+        </Pressable>
+      )}
+    </View>
   );
 }
 
@@ -145,6 +214,29 @@ const styles = StyleSheet.create({
   scoreOf: { fontSize: 32, color: colors.navyMuted },
   pctPill: { backgroundColor: colors.goldSoft, borderRadius: radius.pill, paddingHorizontal: 14, paddingVertical: 5 },
   pctText: { fontFamily: fonts.bodyBold, fontSize: 14, color: colors.navy },
+  upload: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+    backgroundColor: colors.white,
+    borderRadius: radius.md,
+    padding: 16,
+    marginTop: 16,
+    ...shadow,
+  },
+  uploadIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: colors.primarySoft,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  uploadIconWarn: { backgroundColor: colors.coralSoft },
+  uploadTitle: { fontFamily: fonts.bodyBold, fontSize: 16, color: colors.navy },
+  uploadDetail: { fontFamily: fonts.body, fontSize: 13, color: colors.navyMuted, marginTop: 2 },
+  retry: { backgroundColor: colors.coral, borderRadius: radius.pill, paddingHorizontal: 16, paddingVertical: 8 },
+  retryText: { fontFamily: fonts.bodyBold, fontSize: 14, color: colors.white },
   group: { marginTop: 24 },
   groupHeader: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 12 },
   groupIcon: { width: 28, height: 28, borderRadius: 14, alignItems: 'center', justifyContent: 'center' },

@@ -1,6 +1,6 @@
 import * as Haptics from 'expo-haptics';
 import { Redirect, useLocalSearchParams, useRouter } from 'expo-router';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Platform, Pressable, StyleSheet, Text, View, type LayoutChangeEvent } from 'react-native';
 import Animated from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -8,10 +8,16 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { IconButton } from '@/components/Button';
 import { CARD_ASPECT } from '@/components/Flashcard';
 import { Icon } from '@/components/Icon';
+import { MicButton, RecordStatus } from '@/components/RecordControls';
 import { Screen, TopBar } from '@/components/Screen';
 import { SwipeCard, type SwipeCardHandle } from '@/components/SwipeCard';
 import { getSound, getWord, getWords, positionLabel, shuffle, type Position, type WordEntry } from '@/data';
-import { useSession, type CardResult } from '@/state/session';
+import { discardAudio, useRecorder, type Recording } from '@/recording/use-recorder';
+import { useTrackerSession } from '@/recording/use-tracker-session';
+import { newId, useSession, type CardResult } from '@/state/session';
+import { getSpeaker, useSpeaker, voiceTypeFor } from '@/state/speaker';
+import { enqueueUploads } from '@/vowelsy/uploads';
+import VowelTracker from '../../modules/vowel-tracker';
 import { colors, fonts, radius } from '@/theme';
 
 type Params = {
@@ -21,6 +27,8 @@ type Params = {
   shuffle?: string;
   /** Comma-separated word ids; when present, practice exactly these (e.g. missed words). */
   ids?: string;
+  /** Session id carried over from an earlier round (practice missed / practice again) */
+  session?: string;
 };
 
 function buildDeck(p: Params): WordEntry[] {
@@ -47,6 +55,33 @@ export default function Practice() {
   const [answers, setAnswers] = useState<CardResult[]>([]);
   const [area, setArea] = useState({ width: 0, height: 0 });
   const topCard = useRef<SwipeCardHandle>(null);
+  const [sessionId] = useState(() => params.session ?? newId());
+  const [roundId] = useState(newId);
+
+  // Recording: the tracker listens while this screen is open; each card keeps its last take
+  const { status: micStatus, retry: retryMic } = useTrackerSession();
+  const speaker = useSpeaker();
+  const [takes, setTakes] = useState<Record<string, Recording>>({});
+  const takesRef = useRef(takes);
+  takesRef.current = takes;
+  /** The card that was on top when the current take started */
+  const recordingFor = useRef<string | null>(null);
+
+  const saveTake = (recording: Recording | null) => {
+    const wordId = recordingFor.current;
+    recordingFor.current = null;
+    if (!recording || !wordId) return;
+    const previous = takesRef.current[wordId];
+    if (previous) discardAudio(previous.audioUri);
+    const next = { ...takesRef.current, [wordId]: recording };
+    takesRef.current = next;
+    setTakes(next);
+  };
+  const recorder = useRecorder(saveTake);
+
+  useEffect(() => {
+    if (speaker && micStatus === 'running') VowelTracker.setVoiceType(voiceTypeFor(speaker));
+  }, [speaker, micStatus]);
 
   const sound = getSound(params.sound);
   if (!sound || deck.length === 0) return <Redirect href="/" />;
@@ -55,19 +90,53 @@ export default function Practice() {
   const correctCount = answers.filter((a) => a.correct).length;
   const title = params.ids ? `${sound.label} · Practice missed` : `${sound.label} · ${positionLabel(params.position ?? '')}`;
 
+  const finishRound = (results: CardResult[]) => {
+    const recordings = takesRef.current;
+    const isRetry = !!params.ids;
+    const client = getSpeaker();
+    if (client) {
+      enqueueUploads(
+        results
+          .filter((r) => recordings[r.id])
+          .map((r) => ({
+            roundId,
+            sessionId,
+            word: getWord(r.id)!,
+            correct: r.correct,
+            isRetry,
+            recording: recordings[r.id],
+            speaker: client,
+          })),
+      );
+    }
+    setLastSession({ roundId, sessionId, sound: sound.id, position: params.position ?? 'all', isRetry, results, recordings });
+    router.replace('/results');
+  };
+
   const handleSwiped = (id: string, correct: boolean) => {
     haptic(correct);
     const next = [...answers, { id, correct }];
     setAnswers(next);
     if (next.length === deck.length) {
-      setLastSession({
-        sound: sound.id,
-        position: params.position ?? 'all',
-        isRetry: !!params.ids,
-        results: next,
-      });
-      router.replace('/results');
+      // A take still in progress belongs to the card that was just answered; wait for it
+      if (recorder.recording) recorder.stop().then(saveTake).then(() => finishRound(next));
+      else finishRound(next);
     }
+  };
+
+  const startTake = () => {
+    const current = deck[answers.length];
+    if (!current) return;
+    recordingFor.current = current.id;
+    recorder.start();
+  };
+  const endTake = () => {
+    recorder.stop().then(saveTake);
+  };
+
+  const leave = () => {
+    Object.values(takesRef.current).forEach((t) => discardAudio(t.audioUri));
+    router.back();
   };
 
   const undo = () => setAnswers((a) => a.slice(0, -1));
@@ -85,7 +154,7 @@ export default function Practice() {
   return (
     <Screen>
       <TopBar
-        left={<IconButton icon="x" label="End practice" onPress={() => router.back()} />}
+        left={<IconButton icon="x" label="End practice" onPress={leave} />}
         title={title}
         right={index > 0 ? <IconButton icon="undo" label="Undo last card" onPress={undo} /> : undefined}
       />
@@ -119,10 +188,25 @@ export default function Practice() {
             .reverse()}
       </View>
 
-      <Text style={styles.hint}>Swipe right for correct · left to try again</Text>
+      <View style={styles.status}>
+        <RecordStatus
+          status={micStatus}
+          recording={recorder.recording}
+          live={recorder.live}
+          take={deck[index] ? takes[deck[index].id] : undefined}
+        />
+      </View>
 
       <View style={[styles.actions, { paddingBottom: Math.max(insets.bottom, 16) + 8 }]}>
         <AnswerButton label="Try again" icon="x" color={colors.coral} onPress={() => topCard.current?.swipe(false)} />
+        {micStatus !== 'unavailable' && (
+          <MicButton
+            recording={recorder.recording}
+            disabled={micStatus === 'starting' || micStatus === 'permission-denied'}
+            onPressIn={micStatus === 'running' ? startTake : retryMic}
+            onPressOut={micStatus === 'running' ? endTake : () => {}}
+          />
+        )}
         <AnswerButton label="Correct" icon="check" color={colors.primary} onPress={() => topCard.current?.swipe(true)} />
       </View>
     </Screen>
@@ -186,8 +270,8 @@ const styles = StyleSheet.create({
   },
   fill: { height: '100%', borderRadius: radius.pill, backgroundColor: colors.gold },
   deck: { flex: 1, marginTop: 12 },
-  hint: { textAlign: 'center', fontFamily: fonts.body, fontSize: 13, color: colors.navyMuted, marginTop: 6 },
-  actions: { flexDirection: 'row', justifyContent: 'center', gap: 56, paddingTop: 14 },
+  status: { marginTop: 6, paddingHorizontal: 20 },
+  actions: { flexDirection: 'row', justifyContent: 'center', gap: 32, paddingTop: 10 },
   answer: { alignItems: 'center', gap: 6 },
   answerCircle: {
     width: 76,

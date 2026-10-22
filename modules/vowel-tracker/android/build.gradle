@@ -1,0 +1,28 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'com.tannerplauche.voweltracker'
+version = '0.1.0'
+
+android {
+  namespace "com.tannerplauche.voweltracker"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+    externalNativeBuild {
+      cmake {
+        cppFlags "-std=c++17 -O2"
+      }
+    }
+  }
+  externalNativeBuild {
+    cmake {
+      path "CMakeLists.txt"
+    }
+  }
+  lintOptions {
+    abortOnError false
+  }
+}

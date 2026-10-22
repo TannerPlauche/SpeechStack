@@ -8,7 +8,10 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.speechstack.app"
+      "bundleIdentifier": "com.speechstack.app",
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "SpeechStack connects to the Vowelsy server to upload practice recordings."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -35,7 +38,17 @@
           "resizeMode": "contain",
           "backgroundColor": "#FFF9EF"
         }
-      ]
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "SpeechStack records practice words so you can play them back and measure the speech sounds.",
+          "recordAudioAndroid": true,
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      "./plugins/with-scene-lifecycle"
     ],
     "scheme": "speechstack",
     "backgroundColor": "#FFF9EF",
